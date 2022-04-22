@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "S13_es1": {
+    "FE_0122B_ProgettoFinale": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/s13-es1",
+            "outputPath": "dist/fe-0122-b-progetto-finale",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "S13_es1:build:production"
+              "browserTarget": "FE_0122B_ProgettoFinale:build:production"
             },
             "development": {
-              "browserTarget": "S13_es1:build:development"
+              "browserTarget": "FE_0122B_ProgettoFinale:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "S13_es1:build"
+            "browserTarget": "FE_0122B_ProgettoFinale:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "S13_es1"
+  "defaultProject": "FE_0122B_ProgettoFinale"
 }
